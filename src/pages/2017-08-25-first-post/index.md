@@ -1,0 +1,8 @@
+---
+path: '/first-post'
+title: 'First Blog Post'
+---
+
+## Hello!
+
+<marquee>AHa!</marquee>
