@@ -6,12 +6,13 @@ const IndexPage = ({ data }) => {
   console.log(posts)
   return (
     <div>
-      <h1>Hi people</h1>
-
-      <ul>
-        {posts.map(post => (
-          <li>
-            <a href={post.node.frontmatter.path}>
+      <ul className='episodes'>
+        {posts.map((post, index) => (
+          <li className='episode' key={post.node.frontmatter.path}>
+            <a
+              className={'btn--' + (index === 0 ? 'warning' : 'plain')}
+              href={post.node.frontmatter.path}
+            >
               {post.node.frontmatter.title}
             </a>
           </li>
@@ -23,7 +24,7 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
 query IndexQuery {
-  allMarkdownRemark {
+  allMarkdownRemark{
     edges {
       node {
         frontmatter {

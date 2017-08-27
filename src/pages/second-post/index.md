@@ -1,6 +1,6 @@
 ---
-path: '/second-post'
-title: 'Second Blog Post'
+path: '/02-second-post'
+title: '02 Second'
 ---
 
 ## Hello!
