@@ -3,7 +3,6 @@ import Helmet from 'react-helmet'
 
 export default function Template ({ data }) {
   const { markdownRemark: post } = data
-  // const post = data.markdownRemark
 
   return (
     <div>
