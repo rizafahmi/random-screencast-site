@@ -373,7 +373,7 @@ footer {
 
 .nav__item--current a, .nav__item a:hover {
   color: #0b0b0b;
-  border-color: #52bab3; }
+   }
 
 h1, .headline-primary, .headline-primary--grouped {
   color: #525559;
@@ -556,10 +556,9 @@ h2, .headline-secondary, .headline-secondary--grouped {
     top: -8px; }
 
 .site-logo {
-  /* background-image: url("../img/logo.svg"); */
+  /* background-image: url("../static/logo.svg"); */
   background-repeat: no-repeat;
-  width: 115px;
-  height: 45px;
+  width: 256px;
   display: inline-block; }
 
 .icn--nav-toggle {
