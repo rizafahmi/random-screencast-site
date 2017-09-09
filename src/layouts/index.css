@@ -8,3 +8,13 @@
 .nav__image {
   width: 32px;
 }
+
+.footer-link > li {
+  display: inline-block;
+  font-size: 22px;
+  padding: 5px;
+}
+
+h1 {
+  color: #52BAB3;
+}

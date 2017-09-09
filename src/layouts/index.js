@@ -54,6 +54,12 @@ const Header = () => (
 const Footer = () => (
   <div className='grid'>
     <footer className='grid__col--12 panel--padded--centered'>
+      <ul className='footer-link'>
+        <li><a href='/about'>About</a></li>
+        <li><a href='/setup'>Setup</a></li>
+        <li><a href='/subscribe'>Subscribe</a></li>
+        <li><a href='mailto:rizafahmi@gmail.com'>Feedback</a></li>
+      </ul>
       <p>
         Each episodes is handcrafted by{' '}
         <a href='https://rizafahmi.com' target='_blank'>Riza Fahmi</a>
