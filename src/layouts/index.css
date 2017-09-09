@@ -1,8 +1,10 @@
 .episodes {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 .episode {
-  margin: 22px
+  margin: 2px
 }
 
 .nav__image {
