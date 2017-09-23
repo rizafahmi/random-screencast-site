@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `GatbyJS Blog`
+    title: `Random Screencast | Screencast on random tech tools`,
+    description: 'Random screencast on random tech tools.',
+    siteUrl: `https://randomscreencast.com`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

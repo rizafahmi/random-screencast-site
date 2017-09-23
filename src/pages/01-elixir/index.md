@@ -10,11 +10,9 @@ draft: false
 
 <iframe width="840" height="590" src="https://www.youtube.com/embed/7j04qtSvhE4" frameborder="0" allowfullscreen></iframe>
 
+Even meetup ini diadakan di 28 April 2016 di Bukalapak. Terimakasih terutama untuk CTO Bukalapak Nugroho Herucahyono yang telah menyediakan tempat dan juga makanan.
 
-This event was held on April 28, 2016 under the auspices of Bukalapak. Special mention goes to CTO Nugroho Herucahyono for providing the space and snacks.
-
-
-**Download video**: [mp4]()
+**Download video**: [mp4](/static/videos/01-elixir.mp4)
 
 **Slide presentasi**: [SlideShare](https://www.slideshare.net/rizafahmi/brief-intro-to-phoenix-elixir-meetup-at-bukalapak)
 

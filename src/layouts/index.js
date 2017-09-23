@@ -71,9 +71,9 @@ const Footer = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title='Random Access Memory by Riza'
+      title='Random Screencast | Screencast on random tech tools'
       meta={[
-        { name: 'description', content: 'Random Access Memory by Riza' },
+        { name: 'description', content: 'Screencast on random tech tools' },
         { name: 'keywords', content: 'random, screencast, technology' }
       ]}
     />

@@ -13,7 +13,7 @@ draft: false
 
 Video ini merupakan replay dari webinar yang diselenggarakan oleh CodePolitan atas dukungan HACKTIV8, dengan tema "React.js Getting Started, Concepts & Implementation". Dilaksanakan pada 1 November 2016 pukul 19.00 WIB.
 
-**Download video**: [mp4]()
+**Download video**: [mp4](/static/videos/02-react.mp4)
 
 **Slide presentasi**: [SlideShare](https://www.slideshare.net/rizafahmi/react-webinar-with-codepolitan)
 
