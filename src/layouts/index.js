@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import './application.css'
 import './index.css'
+require('./prism-solarizedlight.css')
 
 const Header = () => (
   <div className='grid'>
@@ -15,7 +15,9 @@ const Header = () => (
       <nav className='navbar' role='navigation'>
         <ul className='nav'>
           <li className='nav__item'>
-            <a href='/'><img className='nav__image' src='static/rss.svg' /></a>
+            <a href='/'>
+              <img className='nav__image' src='static/rss.svg' />
+            </a>
           </li>
           <li className='nav__item'>
             <a href='https://github.com/rizafahmi' target='_blank'>
@@ -55,14 +57,21 @@ const Footer = () => (
   <div className='grid'>
     <footer className='grid__col--12 panel--padded--centered'>
       <ul className='footer-link'>
-        <li><a href='/about'>About</a></li>
-        <li><a href='/setup'>Setup</a></li>
-        <li><a href='/subscribe'>Subscribe</a></li>
-        <li><a href='mailto:rizafahmi@gmail.com'>Feedback</a></li>
+        <li>
+          <a href='/about'>About</a>
+        </li>
+        <li>
+          <a href='#'>Subscribe</a>
+        </li>
+        <li>
+          <a href='mailto:rizafahmi@gmail.com'>Feedback</a>
+        </li>
       </ul>
       <p>
         Each episodes is handcrafted by{' '}
-        <a href='https://rizafahmi.com' target='_blank'>Riza Fahmi</a>
+        <a href='https://rizafahmi.com' target='_blank'>
+          Riza Fahmi
+        </a>
       </p>
     </footer>
   </div>
@@ -76,17 +85,39 @@ const TemplateWrapper = ({ children }) => (
         { name: 'description', content: 'Screencast on random tech tools' },
         { name: 'keywords', content: 'random, screencast, technology' }
       ]}
-    />
+    >
+      <link
+        rel='icon'
+        type='image/png'
+        sizes='16x16'
+        href='/static/16x16.png'
+      />
+      <link
+        rel='icon'
+        type='image/png'
+        sizes='32x32'
+        href='/static/32x32.png'
+      />
+      <link
+        rel='icon'
+        type='image/png'
+        sizes='48x48'
+        href='/static/48x48.png'
+      />
+      <link
+        rel='icon'
+        type='image/png'
+        sizes='64x64'
+        href='/static/64x64.png'
+      />
+    </Helmet>
     <Header />
 
     <div className='grid'>
-      <div className='centered grid__col--10'>
-        {children()}
-      </div>
+      <div className='centered grid__col--10'>{children()}</div>
     </div>
 
     <Footer />
-
   </div>
 )
 

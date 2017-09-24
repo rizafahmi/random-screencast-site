@@ -13,6 +13,15 @@ module.exports = {
         name: 'pages'
       }
     },
-    `gatsby-transformer-remark`
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {}
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-106935427-1'
+      }
+    }
   ]
 }

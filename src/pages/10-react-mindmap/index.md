@@ -42,6 +42,6 @@ class Example extends Component {
 render(
   <Example nodes={nodes} connections={connections} />,
   document.getElementById('target')
-  )
+)
 ```
 
