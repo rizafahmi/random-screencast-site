@@ -12,7 +12,7 @@ draft: false
 
 [React Mindmap](https://github.com/learn-anything/react-mindmap) adalah komponen React untuk membuat mindmap. Library React Mindmap ini dibuat oleh tim dibelakang aplikasi mindmap keren [MindNode](https://mindnode.com/) dan [Learn Anything](https://learn-anything.xyz/). Contoh hasil dari penggunaan React Mindmap misalnya [seperti](https://learn-anything.xyz/web-development/javascript-libraries/react).
 
-**Download video**: [mp4]()
+**Download video**: [mp4](/static/videos/10-react-mindmap.mp4)
 
 **GitHub Repo**: [RandCast-MindMapper](https://github.com/rizafahmi/randcast-mindmapper)
 
