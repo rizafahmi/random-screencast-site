@@ -68,10 +68,20 @@ const Footer = () => (
         </li>
       </ul>
       <p>
-        Each episodes is handcrafted by{' '}
+        Each episodes is present to you by{' '}
         <a href='https://rizafahmi.com' target='_blank'>
-          Riza Fahmi
-        </a>
+          Riza
+        </a>. This site build with{' '}
+        <a href='https://www.gatsbyjs.org' target='_blank'>
+          GatsbyJS
+        </a>,{' '}
+        <a href='https://facebook.github.io/react/' target='_blank'>
+          React
+        </a>{' '}
+        and also {' '}
+        <a href='http://graphql.org/' target='_blank'>
+          GraphQL
+        </a>.
       </p>
     </footer>
   </div>

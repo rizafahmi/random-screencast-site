@@ -476,6 +476,7 @@ h2, .headline-secondary, .headline-secondary--grouped {
 .btn--plain {
   background-color: #fff;
   color: #798397;
+  border: 1px solid #cacaca;
 }
 
 
