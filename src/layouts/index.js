@@ -58,13 +58,15 @@ const Footer = () => (
     <footer className='grid__col--12 panel--padded--centered'>
       <ul className='footer-link'>
         <li>
-          <a href='/about'>About</a>
+          <a href='/about'>ABOUT</a>
         </li>
         <li>
-          <a href='#'>Subscribe</a>
+          <a href='http://eepurl.com/c5ra1j' target='_blank'>
+            SUBSCRIBE
+          </a>
         </li>
         <li>
-          <a href='mailto:rizafahmi@gmail.com'>Feedback</a>
+          <a href='mailto:rizafahmi@gmail.com'>FEEDBACK</a>
         </li>
       </ul>
       <p>

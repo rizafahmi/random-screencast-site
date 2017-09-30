@@ -1,3 +1,6 @@
+h1 {
+  color: #52BAB3;
+}
 .episodes {
   display: flex;
   flex-flow: row wrap;
@@ -11,15 +14,19 @@
   width: 32px;
 }
 
+footer {
+  font-size: 14px;
+}
 .footer-link > li {
   display: inline-block;
   font-size: 22px;
   padding: 5px;
 }
 
-h1 {
-  color: #52BAB3;
-}
 .footer-link > li > a {
   text-decoration: none;
+}
+
+.footer-link > li {
+  font-size: 14px;
 }
