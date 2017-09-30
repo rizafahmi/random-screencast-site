@@ -10,16 +10,28 @@ const IndexPage = ({ data }) => {
           .filter(post => !post.node.frontmatter.draft)
           .map((post, index) => (
             <li className='episode' key={post.node.frontmatter.path}>
-              <a
-                className={'btn--' + (index === 0 ? 'warning' : 'plain')}
-                href={post.node.frontmatter.path}
-              >
-                {post.node.frontmatter.title}
-              </a>
+              <ButtonPost index={index} frontmatter={post.node.frontmatter} />
             </li>
           ))}
       </ul>
     </div>
+  )
+}
+
+const ButtonPost = props => {
+  let buttonType
+  switch (props.index) {
+    case 0:
+      buttonType = 'warning'
+      break
+    default:
+      buttonType = 'plain'
+      break
+  }
+  return (
+    <a className={'btn--' + buttonType} href={props.frontmatter.path}>
+      {props.frontmatter.title}
+    </a>
   )
 }
 
