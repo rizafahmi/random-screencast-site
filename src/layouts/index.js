@@ -15,7 +15,7 @@ const Header = () => (
       <nav className='navbar' role='navigation'>
         <ul className='nav'>
           <li className='nav__item'>
-            <a href='/'>
+            <a href='/rss.xml'>
               <img className='nav__image' src='/static/rss.svg' />
             </a>
           </li>
