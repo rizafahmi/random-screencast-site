@@ -25,10 +25,7 @@ const Header = () => (
             </a>
           </li>
           <li className='nav__item'>
-            <a
-              href='https://www.youtube.com/channel/UCHhAlFGFCGgIusQkQIqJLYw'
-              target='_blank'
-            >
+            <a href='https://www.youtube.com/c/RizaFahmi' target='_blank'>
               <img className='nav__image' src='/static/youtube.svg' />
             </a>
           </li>
