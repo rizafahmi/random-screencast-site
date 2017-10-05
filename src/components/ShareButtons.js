@@ -1,25 +1,58 @@
 import React from 'react'
 
+import './ShareButtons.css'
+
 const ShareButtons = props => (
-  <a
-    className='resp-sharing-button__link'
-    href={
-      'https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Frandomscreencast.com' +
-      encodeURI(props.url)
-    }
-    target='_blank'
-    aria-label='Share on Facebook'
-  >
-    <div className='resp-sharing-button resp-sharing-button--facebook resp-sharing-button--large'>
-      <div
-        aria-hidden='true'
-        className='resp-sharing-button__icon resp-sharing-button__icon--solid'
-      />
-      <span>
-        <img src='/static/fb.svg' style={{ width: 32 }} />
-      </span>
-    </div>
-  </a>
+  <div style={{ marginTop: 64 }}>
+    <span
+      style={{
+        fontSize: 18,
+        color: '#999da1',
+        fontWeight: 300
+      }}
+    >
+      Sharing is <s>caring</s> magic!
+    </span>
+    <br />
+    <a
+      className='shareLink'
+      href={
+        'https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Frandomscreencast.com' +
+        encodeURI(props.url)
+      }
+      target='_blank'
+      ariaLabel='Share on Facebook'
+    >
+      <img src='/static/fb.svg' style={{ width: 28 }} />
+    </a>
+    <a
+      className='shareLink'
+      href={
+        'https://twitter.com/intent/tweet/?text=' +
+        encodeURI(props.title + '&url=https://randomscreencast.com' + props.url)
+      }
+      target='_blank'
+      ariaLabel='Share on Twitter'
+    >
+      <img src='/static/twitter.svg' style={{ width: 28 }} />
+    </a>
+    <a
+      className='shareLink'
+      href={
+        'https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Frandomscreencast.com' +
+        props.url +
+        '&amp;title=' +
+        props.title +
+        '&amp;summary=' +
+        props.description +
+        '&amp;source=https%3A%2F%2Frandomscreencast.com'
+      }
+      target='_blank'
+      ariaLabel='Share on Linkedin'
+    >
+      <img src='/static/linkedin.svg' style={{ width: 28 }} />
+    </a>
+  </div>
 )
 
 export default ShareButtons
