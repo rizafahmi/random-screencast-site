@@ -44,6 +44,7 @@ export const query = graphql`
             title
             path
             draft
+            description
           }
         }
       }
