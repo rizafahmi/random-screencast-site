@@ -58,7 +58,11 @@ const Footer = () => (
           <a href='/about'>ABOUT</a>
         </li>
         <li>
-          <a href='http://eepurl.com/c5ra1j' target='_blank'>
+          <a
+            style={{ color: '#FF784F' }}
+            href='http://eepurl.com/c5ra1j'
+            target='_blank'
+          >
             SUBSCRIBE
           </a>
         </li>
