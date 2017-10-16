@@ -1,6 +1,6 @@
 ---
 path: '/06-node-db'
-title: '06 DB With Node'
+title: 'Database with NodeJS'
 draft: false
 ---
 

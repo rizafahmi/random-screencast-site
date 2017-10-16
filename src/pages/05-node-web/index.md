@@ -1,6 +1,6 @@
 ---
 path: '/05-node-web'
-title: '05 Web With Node'
+title: 'Web Development with NodeJS'
 draft: false
 ---
 

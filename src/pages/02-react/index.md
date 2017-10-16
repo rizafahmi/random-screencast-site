@@ -1,6 +1,6 @@
 ---
 path: '/02-react'
-title: '02 React'
+title: 'React: Getting Started, Concepts & Implementation'
 draft: false
 ---
 

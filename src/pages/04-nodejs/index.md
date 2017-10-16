@@ -1,6 +1,6 @@
 ---
 path: '/04-nodejs'
-title: '04 NodeJS Intro'
+title: 'Introduction to NodeJS'
 draft: false
 ---
 

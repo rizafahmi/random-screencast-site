@@ -1,6 +1,6 @@
 ---
 path: '/11-react-tdd'
-title: '11 React TDD'
+title: Testing-Driven Development With React
 description: 'Dengan mengadaptasi banyak sifat dari functional programming, React sangat mudah untuk ditest. Dan dengan bantuan library seperti Jest, Enzyme dan lainnya, melakukan test-first di aplikasi React menjadi mudah.'
 draft: false
 ---

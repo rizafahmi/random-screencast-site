@@ -1,6 +1,6 @@
 ---
 path: '/01-phoenix-elixir'
-title: '01 Phoenix Elixir'
+title: 'All About Elixir: Phoenix Web Framework'
 draft: false
 ---
 

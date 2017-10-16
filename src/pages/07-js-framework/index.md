@@ -1,6 +1,6 @@
 ---
 path: '/07-js-frameworks'
-title: '07 JS Frameworks'
+title: 'Picking JS Frameworks For You'
 draft: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 path: '/10-react-mindmap'
-title: '10 React Mindmap'
+title: 'React Mindmap'
 draft: false
 description: React Mindmap adalah komponen React untuk membuat mindmap. Library React Mindmap ini dibuat oleh tim dibelakang aplikasi mindmap keren MindNode dan Learn Anything.
 

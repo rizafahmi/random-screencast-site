@@ -30,7 +30,7 @@ const ButtonPost = props => {
   }
   return (
     <a className={'btn--' + buttonType} href={props.frontmatter.path}>
-      {props.frontmatter.title}
+      {props.frontmatter.path.replace('/', '').replace(/-/g, ' ')}
     </a>
   )
 }

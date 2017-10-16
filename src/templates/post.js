@@ -5,13 +5,11 @@ import ShareButtons from '../components/ShareButtons'
 
 export default function Template ({ data }) {
   const { markdownRemark: post } = data
+  const title = post.frontmatter.title.replace(/\d{1,3} /g, '')
   return (
     <div>
       <Helmet
-        title={
-          post.frontmatter.title +
-          ' | Random Screencast | Screencast on random tech tools'
-        }
+        title={title + ' | Random Screencast | Screencast on random tech tools'}
         meta={[
           {
             name: 'description',

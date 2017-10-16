@@ -1,6 +1,6 @@
 ---
 path: '/08-pwa'
-title: '08 PWA'
+title: 'Progressive Web Apps'
 draft: false
 ---
 

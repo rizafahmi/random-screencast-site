@@ -1,6 +1,6 @@
 ---
 path: '/03-react-styling'
-title: '03 React Styling'
+title: 'Styling Your React App'
 draft: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 path: '/09-why-node'
-title: '09 Why Node'
+title: 'Why NodeJS'
 draft: false
 ---
 
