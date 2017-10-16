@@ -30,3 +30,7 @@ footer {
 .footer-link > li {
   font-size: 14px;
 }
+
+/* @media screen and (min-width: 0px) and (max-width: 845px) { */
+/*   nav { display: none; } */
+/* } */

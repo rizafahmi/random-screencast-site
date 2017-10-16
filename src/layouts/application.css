@@ -353,10 +353,15 @@ footer {
   margin-bottom: 1em;
   padding: 1.75%; }
 
-@media (min-width: 769px) {
+@media (min-width: 500px) {
   .nav__item, .nav__item--current {
     display: inline-block;
     margin: 0 0.625em; } }
+@media (max-width: 500px) {
+  .nav__item, .nav__item--current {
+    display: none;
+  }
+}
 
 .nav__item--current a, .nav__item a {
   font-weight: 300;
