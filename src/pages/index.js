@@ -37,7 +37,7 @@ const ButtonPost = props => {
 
 export const query = graphql`
   query IndexQuery {
-    allMarkdownRemark(sort: { fields: [frontmatter___title], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___path], order: DESC }) {
       edges {
         node {
           frontmatter {
