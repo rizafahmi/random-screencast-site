@@ -227,7 +227,10 @@ zerosign: Yuri Setiantoko follows 10, got 8 follower(s).
 ```
 
 ## References
-
-* [ Minion Movie ](https://www.rottentomatoes.com/m/minions)
-* [ Little OTP Book ](https://www.manning.com/books/the-little-elixir-and-otp-guidebook)
+<ul>
+<li><a href="https://elixir-lang.org/getting-started/processes.html" target="_blank">Elixir Process</a></li>
+<li><a href="https://randomscreencast.com/01-phoenix-elixir" target="_blank">Episode 01 Phoenix Elixir</a></li>
+<li><a href="https://www.manning.com/books/the-little-elixir-and-otp-guidebook" target="_blank"> <img src="https://camo.githubusercontent.com/24f6ada74ac7a853bd95ef40374270566b4d9571/687474703a2f2f692e696d6775722e636f6d2f62534a7747434a2e6a7067" style="width: 256px;"> </a></li>
+<li><a href="https://www.rottentomatoes.com/franchise/despicable_me" target="_blank"> <img style="width: 256px;" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTY3NjY0MTQ0Nl5BMl5BanBnXkFtZTcwMzQ2MTc0Mw@@._V1_UY1200_CR90,0,630,1200_AL_.jpg"> </a></li>
+</ul>
 
