@@ -21,10 +21,39 @@ const About = () => (
     <ul>
       <li>iTerm2 + NeoVIM + tmux + fish shell - Editor, terminal stuff</li>
       <li> Open Broadcaster Software - Record</li>
-      <li> DaVinci Resolve 14</li>
+      <li> DaVinci Resolve 14 Beta</li>
       <li> Blue Yeti - Microphne </li>
       <li> Logitech - Webcam</li>
-    </ul>
+    </ul>{' '}
+    <br />
+    Sangat ingin menggantikan OBS dan DaVinci Resolve dengan{' '}
+    <a href='https://www.telestream.net/screenflow/' target='_blank'>
+      Screenflow
+    </a>. Wujudkan cita-cita saya dengan mendonasikan sebagian uang kamu untuk
+    membeli Screenflow.
+    <form
+      style={{ width: '18%' }}
+      action='https://www.paypal.com/cgi-bin/webscr'
+      method='post'
+      target='_top'
+    >
+      <input type='hidden' name='cmd' value='_s-xclick' />
+      <input type='hidden' name='hosted_button_id' value='REVLZRKQZ2RF4' />
+      <input
+        type='image'
+        src='https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif'
+        border='0'
+        name='submit'
+        alt='PayPal - The safer, easier way to pay online!'
+      />
+      <img
+        alt=''
+        border='0'
+        src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif'
+        width='1'
+        height='1'
+      />
+    </form>
     <h2>Upcoming</h2>
     <p>
       <em>I wanna learn a ton of things!</em> <em>Learning is my habit</em>
@@ -51,12 +80,15 @@ const About = () => (
       <li> ❎ Express</li>
       <li> ❎ Fastify</li>
       <li> ❎ Go?</li>
-      <li> ❎ AWS Lambda</li>
+      <li>
+        {' '}
+        ✅ <strike>AWS Lambda</strike>
+      </li>
       <li> ❎ Google Cloud</li>
     </ul>
     <br />
     <p>
-      Tertarik dengan topik lain? Silakan _request_ topik ke{' '}
+      Tertarik dengan topik lain? Silakan <em>request</em> topik ke{' '}
       <a href='mailto:rizafahmi@gmail.com'>rizafahmi@gmail.com</a> aja.
     </p>
     <BackButton href='/' title='Back' />
