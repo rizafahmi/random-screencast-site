@@ -9,9 +9,9 @@ draft: false
 # Serverless With NodeJS and ClaudiaJS
 
 
-5 November 2017
+6 November 2017
 
-<iframe width="840" height="590" src="https://www.youtube.com/embed/dlnabvD1y_Q" frameborder="0" allowfullscreen></iframe>
+<iframe width="840" height="590" src="https://www.youtube.com/embed/videoseries?list=PLTY2nW4jwtG-qEA3FPXdvD3Kq5C3phqmc" frameborder="0" allowfullscreen></iframe>
 
 ## Intro
 
@@ -21,7 +21,7 @@ draft: false
 
 **GitHub Repo:** [ https://github.com/rizafahmi/claudia-ice-cream ](https://github.com/rizafahmi/claudia-ice-cream)
 
-**Download Video:** []()
+**Download Video:** [Click here to download](https://drive.google.com/file/d/0B0vZ0F7aVo8WNThmMXgxbzBVaHc/view)
 
 ## Walkthrough
 

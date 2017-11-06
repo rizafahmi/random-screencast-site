@@ -10,7 +10,7 @@ draft: false
 
 16 October 2017
 
-<iframe width="840" height="590" src="https://www.youtube.com/embed/rRIf_cHPWRg" frameborder="0" allowfullscreen></iframe>
+<iframe width="840" height="590" src="https://www.youtube.com/embed/videoseries?list=PLTY2nW4jwtG_k31Y-Igv4FD5mko_-zmlS" frameborder="0" allowfullscreen></iframe>
 
 _Process_ di Elixir merupakan salah satu konsep yang sangat penting. Hal fundamental yang harus dikuasai jika ingin mendalami tentang _concurrency_ di Elixir.
 
