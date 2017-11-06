@@ -1,7 +1,7 @@
 ---
-path: '/13-claudiajs'
+path: '/13-serverless-claudiajs'
 title: 'Serverless With NodeJS and ClaudiaJS'
-description: ''
+description: 'ClaudiaJS adalah library JavaScript dan NodeJS untuk memudahkan kita dalam proses deployment ke AWS Lambda dan API Gateway. Dengan Claudia, kita dapat menggunakan Lambda microservices dengan mudah dan lebih mudah di maintain.'
 draft: false
 
 ---
@@ -10,11 +10,18 @@ draft: false
 
 
 5 November 2017
+
 <iframe width="840" height="590" src="https://www.youtube.com/embed/dlnabvD1y_Q" frameborder="0" allowfullscreen></iframe>
 
 ## Intro
 
 [ClaudiaJS](https://claudiajs.com/) adalah _library_ JavaScript dan NodeJS untuk memudahkan kita dalam proses _deployment_ ke [ AWS Lambda ](https://aws.amazon.com/lambda/details/) dan [ API Gateway ](https://aws.amazon.com/api-gateway/). Dengan Claudia, kita dapat menggunakan Lambda microservices dengan mudah dan lebih mudah di _maintain_.
+
+**Slide:**  [ https://www.slideshare.net/rizafahmi/aws-lambda-with-claudiajs ](https://www.slideshare.net/rizafahmi/aws-lambda-with-claudiajs)
+
+**GitHub Repo:** [ https://github.com/rizafahmi/claudia-ice-cream ](https://github.com/rizafahmi/claudia-ice-cream)
+
+**Download Video:** []()
 
 ## Walkthrough
 
@@ -160,7 +167,3 @@ $ claudia update
 ```
 
 
-## References
-
-* [Slide](https://www.slideshare.net/rizafahmi/aws-lambda-with-claudiajs)
-* [GitHub Repo](https://github.com/rizafahmi/claudia-ice-cream)
