@@ -6,6 +6,7 @@ const About = () => (
   <div>
     <h1>About</h1>
     <p>
+      <img src='/static/mic.jpg' />
       <a href='/'>Random Screencast</a> adalah screencast tentang tools dan
       teknologi. Tidak hanya teknologi, disini juga akan membahas tentang{' '}
       <em>soft-skill</em> namun tetap masih berkaitan dengan dunia software
