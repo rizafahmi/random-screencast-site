@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 
 import './application.css'
 import './index.css'
-require('./prism-solarizedlight.css')
+import './prism-solarizedlight.css'
 
 const Header = () => (
   <div className='grid'>
@@ -81,7 +81,7 @@ const Footer = () => (
         <a href='https://facebook.github.io/react/' target='_blank'>
           React
         </a>{' '}
-        and also {' '}
+        and also{' '}
         <a href='http://graphql.org/' target='_blank'>
           GraphQL
         </a>.
