@@ -10,7 +10,7 @@ const Header = () => (
   <div className='grid'>
     <header className='grid__col-12 panel--padded--centered'>
       <a className='site-logo' href='/'>
-        <img src='/static/logo.png' />
+        <img src='/static/logo-big.png' />
       </a>
       <nav className='navbar' role='navigation'>
         <ul className='nav'>
