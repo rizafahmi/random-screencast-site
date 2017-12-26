@@ -10,7 +10,7 @@ const Header = () => (
   <div className='grid'>
     <header className='grid__col-12 panel--padded--centered'>
       <a className='site-logo' href='/'>
-        <img src='/static/logo.svg' />
+        <img src='http://randomscreencast.com.s3.amazonaws.com/static/logo-big.png' />
       </a>
       <nav className='navbar' role='navigation'>
         <ul className='nav'>
