@@ -7,7 +7,7 @@ const About = () => (
     <h1>Thanks!</h1>
     <p>
       Terimakasih telah bergabung dengan <em>course</em> node{' '}
-      <a href='/'>Random Screencast</a>! Saat ini saya sedang mempersiapkan
+      <a href='/'>Random Screencast</a>! Saat ini saya sedang mempersiapkan{' '}
       <em>content</em> dari <em>online course</em> ini. Sudah tidak sabar ya?
       Sama, saya juga. Jadi pastikan cek inbox email kamu untuk informasi
       berikutnya.
