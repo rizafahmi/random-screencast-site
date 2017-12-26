@@ -1,13 +1,56 @@
 import React from 'react'
 import axios from 'axios'
+import Helmet from 'react-helmet'
 
 import BackButton from '../components/BackButton'
 
 const NodeCourse = () => (
   <div>
+    <Helmet
+      title='Node Course | Random Screencast | Screencast on random tech tools'
+      meta={[
+        {
+          name: 'description',
+          content:
+            'NodeJS Online course di RandomScreencast. Mari belajar tentang platform NodeJS dari dasar dan bersama-sama kita akan belajar membuat aplikasi yang ringan dan cepat.  '
+        },
+        { name: 'keywords', content: 'random, screencast, technology' },
+        {
+          property: 'og:url',
+          content: 'https://randomscreencast.com/node-course'
+        },
+        {
+          property: 'og:type',
+          content: 'website'
+        },
+        {
+          property: 'og:title',
+          content: 'Node Course on Random Screencast.'
+        },
+        {
+          property: 'og:description',
+          content:
+            'NodeJS Online course di RandomScreencast. Mari belajar tentang platform NodeJS dari dasar dan bersama-sama kita akan belajar membuat aplikasi yang ringan dan cepat.  '
+        },
+        {
+          property: 'og:image',
+          content:
+            'http://randomscreencast.com.s3.amazonaws.com/static/logo.png'
+        },
+        {
+          property: 'og:image:secure_url',
+          content: 'https://randomscreencast.com/static/logo.png'
+        },
+        {
+          property: 'og:image:width',
+          content: '1200'
+        },
+        { property: 'og:image:height', content: '628' }
+      ]}
+    />
+
     <h2>Belajar Membuat Aplikasi Dengan NodeJS.</h2>
     <p>
-      {' '}
       Mari belajar tentang platform NodeJS dari dasar dan bersama-sama kita akan
       belajar membuat aplikasi yang ringan dan cepat.
     </p>

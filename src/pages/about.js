@@ -1,9 +1,48 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 
 import BackButton from '../components/BackButton'
 
 const About = () => (
   <div>
+    <Helmet
+      title='About | Random Screencast | Screencast on random tech tools'
+      meta={[
+        { name: 'description', content: 'Screencast on random tech tools' },
+        { name: 'keywords', content: 'random, screencast, technology' },
+        {
+          property: 'og:url',
+          content: 'https://randomscreencast.com/'
+        },
+        {
+          property: 'og:type',
+          content: 'website'
+        },
+        {
+          property: 'og:title',
+          content: 'Random Screencast. Screencasts on random tech tools.'
+        },
+        {
+          property: 'og:description',
+          content:
+            'Random Screencast adalah screencast tentang tools dan teknologi. Tidak hanya teknologi, disini juga akan membahas tentang soft-skill namun tetap masih berkaitan dengan dunia software development. Setiap episode-nya, Riza akan running through berbagai tools development dan mengimplementasikannya kedalam sebuah project sederhana dengan cara yang fun dan spontan.'
+        },
+        {
+          property: 'og:image',
+          content:
+            'http://randomscreencast.com.s3.amazonaws.com/static/logo.png'
+        },
+        {
+          property: 'og:image:secure_url',
+          content: 'https://randomscreencast.com/static/logo.png'
+        },
+        {
+          property: 'og:image:width',
+          content: '1200'
+        },
+        { property: 'og:image:height', content: '628' }
+      ]}
+    />
     <h1>About</h1>
     <p>
       <img src='/static/mic.jpg' />
