@@ -52,40 +52,94 @@ const Header = () => (
 
 const Footer = () => (
   <div className='grid'>
-    <footer className='grid__col--12 panel--padded--centered'>
-      <ul className='footer-link'>
-        <li>
-          <a href='/about'>ABOUT</a>
-        </li>
-        <li>
-          <a
-            style={{ color: '#FF784F' }}
-            href='http://eepurl.com/c5ra1j'
-            target='_blank'
-          >
-            SUBSCRIBE
-          </a>
-        </li>
-        <li>
-          <a href='mailto:rizafahmi@gmail.com'>FEEDBACK</a>
-        </li>
-      </ul>
-      <p>
-        Each episodes is present to you by{' '}
-        <a href='https://rizafahmi.com' target='_blank'>
-          Riza
-        </a>. This site build with{' '}
-        <a href='https://www.gatsbyjs.org' target='_blank'>
-          GatsbyJS
-        </a>,{' '}
-        <a href='https://facebook.github.io/react/' target='_blank'>
-          React
-        </a>{' '}
-        and also{' '}
-        <a href='http://graphql.org/' target='_blank'>
-          GraphQL
-        </a>.
-      </p>
+    <footer className='grid__col--12 panel--centered'>
+      <div className='centered grid__col--6' id='mc_embed_signup'>
+        <p>
+          Apabila kamu menyukai konten di website ini, monggo di-<em>
+            subscribe
+          </em>
+          biar setiap ada episode baru kamu akan di email. Ngga bakal di-<em>
+            spam
+          </em>. Saya juga membenci <em>spam</em> kok 😃
+        </p>
+        <form
+          action='https://randomscreencast.us16.list-manage.com/subscribe/post?u=8265eb5b6276ad47f4668bfa1&amp;id=fa2f2c22dd'
+          method='post'
+          id='mc-embedded-subscribe-form'
+          name='mc-embedded-subscribe-form'
+          className='form'
+          target='_blank'
+          novalidate
+        >
+          <div id='mc_embed_signup_scroll'>
+            <div className='grid'>
+              <div className='grid__col-12'>
+                <div className='grid__col--8'>
+                  <label for='mce-EMAIL' className='form__label--hidden'>
+                    Email Address{' '}
+                  </label>
+                  <input
+                    type='email'
+                    name='EMAIL'
+                    className='form__input'
+                    id='mce-EMAIL'
+                    placeholder='yourawesomeemail@cool.com'
+                  />
+                </div>
+                <div className='grid__col--4'>
+                  <input
+                    type='submit'
+                    value='Subscribe'
+                    name='subscribe'
+                    id='mc-embedded-subscribe'
+                    className='btn--warning'
+                  />
+                </div>
+              </div>
+            </div>
+            <div id='mce-responses' className='clear'>
+              <div
+                className='response'
+                id='mce-error-response'
+                style={{ display: 'none' }}
+              />
+              <div
+                className='response'
+                id='mce-success-response'
+                style={{ display: 'none' }}
+              />
+            </div>
+            <div
+              style={{ position: 'absolute', left: -5000 }}
+              aria-hidden='true'
+            >
+              <input
+                type='text'
+                name='b_8265eb5b6276ad47f4668bfa1_fa2f2c22dd'
+                tabindex='-1'
+                value=''
+              />
+              <div className='clear' />
+            </div>
+          </div>
+        </form>
+        <ul
+          className='footer-link'
+          style={{
+            borderTop: 1,
+            borderTopStyle: 'solid',
+            borderTopColor: '#ebecec',
+            paddingTop: 22
+          }}
+        >
+          <li>
+            <a href='/about'>ABOUT</a>
+          </li>
+          <li>
+            <a href='mailto:rizafahmi@gmail.com'>FEEDBACK</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </div>
 )
