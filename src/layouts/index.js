@@ -57,7 +57,7 @@ const Footer = () => (
         <p>
           Apabila kamu menyukai konten di website ini, monggo di-<em>
             subscribe
-          </em>
+          </em>{' '}
           biar setiap ada episode baru kamu akan di email. Ngga bakal di-<em>
             spam
           </em>. Saya juga membenci <em>spam</em> kok 😃
