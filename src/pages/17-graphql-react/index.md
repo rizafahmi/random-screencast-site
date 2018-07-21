@@ -203,7 +203,7 @@ $ yarn add semantic-ui-react semantic-ui-css
 
 ### Jalin Koneksi Dengan GraphQL
 
-Mari kita mulai menjalin koneksi dengan GraphQL via ApolloClient yang akan kita tambahkan di fil `src/index.js`.
+Mari kita mulai menjalin koneksi dengan GraphQL via ApolloClient yang akan kita tambahkan di file `src/index.js`.
 
 ```javascript
 // index.js
