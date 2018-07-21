@@ -5,14 +5,14 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "axios": "^0.17.1",
-    "gatsby": "^1.9.31",
-    "gatsby-link": "^1.6.16",
-    "gatsby-plugin-feed": "^1.0.0",
-    "gatsby-plugin-google-analytics": "^1.0.7",
-    "gatsby-plugin-react-helmet": "^1.0.6",
-    "gatsby-plugin-sitemap": "^1.2.5",
-    "gatsby-source-filesystem": "^1.4.12",
-    "gatsby-transformer-remark": "^1.7.7"
+    "gatsby": "^1.9.273",
+    "gatsby-link": "^1.6.45",
+    "gatsby-plugin-feed": "^1.3.25",
+    "gatsby-plugin-google-analytics": "^1.0.31",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sitemap": "^1.2.25",
+    "gatsby-source-filesystem": "^1.5.39",
+    "gatsby-transformer-remark": "^1.7.44"
   },
   "keywords": [
     "gatsby"
@@ -27,6 +27,6 @@
     "deploy": "rclone copy ./public/ randcasts3:randomscreencast.com/ --verbose"
   },
   "devDependencies": {
-    "prettier": "^1.5.2"
+    "prettier": "^1.13.7"
   }
 }

@@ -2,7 +2,6 @@
 path: '/17-graphql-react'
 title: 'GraphQL + React'
 draft: false
-description: 'RESTful dengan format JSON sudah menjadi hal yang umum untuk membuat sebuah web service atau API. Nah, ada yang baru nih sebagai evolusi berikutnya dari REST API, namanya GraphQL. Di episode kali ini kita akan membahas sedikit tentang GraphQL dan bagaimana menggunakannya di sisi client dengan React.'
 ---
 
 # GraphQL Client With React
