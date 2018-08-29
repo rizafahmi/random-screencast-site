@@ -16,8 +16,6 @@ Akan tetapi banyak juga yang bilang JavaScript itu berantakan, a mess. Terlalu b
 
 Itulah inti dari talk saya kali ini.
 
-**Download video**: [mp4](/static/videos/07-js-frameworks.mp4)
-
 **Slide presentasi**: [SlideShare](https://www.slideshare.net/rizafahmi/picking-javascript-framework-in-2017-geekcamp)
 
 

@@ -12,8 +12,6 @@ Kita akan membuat sebuah aplikasi yang me-list 20 pull request terakhir dari sua
 
 <iframe width="840" height="590" src="https://www.youtube.com/embed/zPfjk2jhZ98" frameborder="0" allowfullscreen></iframe>
 
-**Download Video:** [mp4](https://drive.google.com/file/d/1N5DU7RMJVpJXj0-hmqeMtVcFz7uXfHrT/view?usp=sharing)
-
 ## Cerita dibalik GraphQL
 
 Di 2012 tim internal Facebook mulai memikirkan konsep *query language* untuk REST API dan tiga tahun berselang, tepatnya di 2015 Facebook mempublish spesifikasi GraphQL. Dan hingga saat ini perusahaan-perusahaan seperti GitHub, Pinterest dan Shopify telah menggunakan GraphQL ini sebagai dasar dari API mereka.

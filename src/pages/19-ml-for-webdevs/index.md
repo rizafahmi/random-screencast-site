@@ -16,8 +16,6 @@ Tujuan utama dari sesi ini sebenarnya adalah untuk mengajak teman-teman semua be
 
 <iframe width="840" height="590" src="https://www.youtube.com/embed/uOprsF1ri6k" frameborder="0" allowfullscreen></iframe>
 
-**Download Video:** [mp4](https://drive.google.com/file/d/1Dpz9DG70wOrjfB0z13AfefYV5aDwm7hE/view?usp=sharing)
-
 **Slide**: [Slideshare](https://www.slideshare.net/rizafahmi/machine-learning-for-web-developers)
 
 **Repo**: [GitHub](https://github.com/rizafahmi/simple-predict-tfjs-vanilla)

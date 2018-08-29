@@ -11,9 +11,6 @@ draft: false
 
 Berikut adalah replay dari acara meetup [React.id](http://react.id/) yang membahas tentang opsi-opsi melakukan _styling_ di ReactJS. Diadakan pada tanggal 7 Maret 2017 di kampus [Hacktiv8](https://hacktiv8.com/).
 
-
-**Download video**: [mp4](/static/videos/03-react-styling.mp4)
-
 **Slide presentasi**: [SlideShare](https://www.slideshare.net/rizafahmi/styling-your-react-app)
 
 

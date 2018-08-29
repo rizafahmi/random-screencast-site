@@ -11,8 +11,6 @@ Buat yang ingin belajar menggunakan VIM sebagai code editor andalan, episode ber
 
 <iframe width="840" height="590" src="https://www.youtube.com/embed/GYw6l30vybY?rel=0" frameborder="0" allowfullscreen></iframe>
 
-**Download Video:** [mp4](https://drive.google.com/file/d/1P5NC_2cNrcnt9j7CR-8kn88OXyGu8gHg/view?usp=sharing)
-
 **My VIM Configuration:** [GitHub](https://github.com/rizafahmi/dotfiles/blob/master/neovim/init.vim)
 
 **VIM Plugins yang digunakan:**

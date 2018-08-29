@@ -13,9 +13,6 @@ draft: false
 
 Dengan mengadaptasi banyak sifat dari _functional programming_, React semakin mudah untuk ditest. Dengan bantuan testing library [Jest](https://facebook.github.io/jest/) dan [Enzyme](http://airbnb.io/enzyme/) saat ini melakukan TDD di sisi _front-end_ sudah tidak sulit lagi. Mau bukti? Tonton saja video-nya untuk melihat bagaimana menerapkan TDD dengan React.
 
-
-**Download video**: [mp4](/static/videos/11-react-tdd.mp4)
-
 **GitHub Repo**: [randcast-react-tdd](https://github.com/rizafahmi/randcast-react-tdd)
 
 ## Instalasi dan menjalankan test

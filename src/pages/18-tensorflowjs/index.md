@@ -14,8 +14,6 @@ Dan di episode ini kita akan melihat cara penggunaan Tensorflow.js untuk membuat
 
 <iframe width="840" height="590" src="https://www.youtube.com/embed/iO_-8c3fqZM" frameborder="0" allowfullscreen></iframe>
 
-**Download Video:** [mp4](https://drive.google.com/open?id=1p6FeRubAIAWMGFrSM5qSUUBCNY_dgozW)
-
 **Repo**: [GitHub](https://github.com/rizafahmi/simple-predict-tfjs-vanilla)
 
 ## Referensi

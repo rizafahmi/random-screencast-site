@@ -11,9 +11,6 @@ draft: false
 
 Berikut adalah replay mini-workshop bagaimana menggunakan database menggunakan NodeJS yang diadakan pada tanggal 23 Mei 2017 di kampus [Hacktiv8](https://hacktiv8.com/).
 
-
-**Download video**: [mp4](/static/videos/06-node-db.mp4)
-
 **Slide presentasi**: [SlideShare](https://www.slideshare.net/rizafahmi/databases-and-nodejs)
 
 **Sample code**: [GitHub](https://github.com/rizafahmi/hacktivcash-server)

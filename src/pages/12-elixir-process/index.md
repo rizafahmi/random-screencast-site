@@ -19,8 +19,6 @@ _Process_ di Elixir dan Erlang VM bukanlah seperti thread yang cukup berat dan m
 Dengan memahami _process_, kita juga sekaligus memahami konsep [actor model](http://theerlangelist.blogspot.co.id/2013/01/actors-in-erlangelixir.html) di dunia _concurrency_.
 
 
-**Download video**: [mp4](/static/videos/12-elixir-process.mp4)
-
 **GitHub Repo**: [randacast\_elixir\_github\_stargazers](https://github.com/rizafahmi/randacast_elixir_github_stargazers)
 
 ## Walkthrough
