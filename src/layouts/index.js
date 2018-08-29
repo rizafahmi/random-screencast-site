@@ -175,13 +175,13 @@ const TemplateWrapper = ({ children }) => (
         },
         {
           property: "og:image:secure_url",
-          content: "https://randomscreencast.com/static/logo.png"
+          content: "https://randomscreencast.com/static/OG_Logo.png"
         },
         {
           property: "og:image:width",
-          content: "1200"
+          content: "200"
         },
-        { property: "og:image:height", content: "628" }
+        { property: "og:image:height", content: "200" }
       ]}
     >
       <link
