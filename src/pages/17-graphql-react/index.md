@@ -192,7 +192,7 @@ $ create-react-app react-graphql
 Kemudian install beberapa *package* yang kita perlukan, terutama yang berkaitan dengan GraphQL dan kita akan menggunakan [Apollo](https://www.apollographql.com/), wrapper GraphQL yang memudahkan kita berinteraksi dengan GraphQL.
 
 ```
-$ yarn add graphql apollo-client-preset react-apollo graphql-tag
+$ yarn add graphql apollo-client apollo-client-preset react-apollo graphql-tag
 ```
 
 Tak lupa untuk mempercantik tampilan, kita tambahkan [UI Framework Semantic-UI](https://react.semantic-ui.com/).
