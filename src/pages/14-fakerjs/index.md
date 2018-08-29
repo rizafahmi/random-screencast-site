@@ -14,8 +14,6 @@ Ketika kita membuat aplikasi baru seringkali dihadapkan pada kebutuhan dummy dat
 Episode singkat kali ini kita akan melihat demo penggunaan library FakerJS.
 
 
-**Download Video:** [mp4](https://drive.google.com/file/d/1Q8ffwNy5f8YwhRdWCCzdlnlgYVQZLn_L/view?usp=sharing)
-
 ## Contoh Code FakerJS
 
 ```javascript

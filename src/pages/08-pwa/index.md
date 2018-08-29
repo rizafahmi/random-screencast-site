@@ -16,8 +16,6 @@ Progressive web apps sangat cocok diimplementasikan di negara-negara dengan kone
 
 Itulah inti dari talk saya kali ini. Kita akan membahas apa itu PWA, kenapa PWA dan bagaimana cara implementasi progressive web apps di sebuah aplikasi.
 
-**Download video**: [mp4](/static/videos/08-pwa.mp4)
-
 **Slide presentasi**: [SlideShare](https://www.slideshare.net/rizafahmi/progressive-web-apps-what-why-and-how)
 
 

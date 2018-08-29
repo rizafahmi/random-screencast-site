@@ -12,9 +12,6 @@ draft: false
 
 Berikut adalah replay mini-workshop bagaimana membuat aplikasi sederhana menggunakan NodeJS yang diadakan pada tanggal 15 Maret 2017 di kampus [Hacktiv8](https://hacktiv8.com/).
 
-
-**Download video**: [mp4](/static/videos/04-nodejs.mp4)
-
 **Slide presentasi**: [SlideShare](https://www.slideshare.net/rizafahmi/first-step-into-nodejs-world)
 
 **Sample code**: [GitHub](https://github.com/rizafahmi/hacktivcast-2-github-profile-tdd)

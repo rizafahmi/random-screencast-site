@@ -21,8 +21,6 @@ draft: false
 
 **GitHub Repo:** [ https://github.com/rizafahmi/claudia-ice-cream ](https://github.com/rizafahmi/claudia-ice-cream)
 
-**Download Video:** [Click here to download](https://drive.google.com/file/d/0B0vZ0F7aVo8WNThmMXgxbzBVaHc/view)
-
 ## Walkthrough
 
 ### Setup Credentials

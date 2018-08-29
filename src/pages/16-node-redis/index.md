@@ -13,8 +13,6 @@ Aplikasi yang akan kita buat adalah sebuah REST API yang akan membaca [GitHub AP
 
 <iframe width="840" height="590" src="https://www.youtube.com/embed/_ckarChbGBg?rel=0" frameborder="0" allowfullscreen></iframe>
 
-**Download Video:** [mp4](https://drive.google.com/file/d/1zvUA87RYtC7pKGI0uAbqDgnls1lCKw9k/view?usp=sharing)
-
 **Package Yang Digunakan:**
 
 * [Express Web Framework](http://expressjs.com/)
