@@ -69,13 +69,13 @@ const Footer = () => (
           name="mc-embedded-subscribe-form"
           className="form"
           target="_blank"
-          novalidate
+          noValidate
         >
           <div id="mc_embed_signup_scroll">
             <div className="grid">
               <div className="grid__col-12">
                 <div className="grid__col--8">
-                  <label for="mce-EMAIL" className="form__label--hidden">
+                  <label htmlFor="mce-EMAIL" className="form__label--hidden">
                     Email Address{" "}
                   </label>
                   <input
@@ -116,7 +116,7 @@ const Footer = () => (
               <input
                 type="text"
                 name="b_8265eb5b6276ad47f4668bfa1_fa2f2c22dd"
-                tabindex="-1"
+                tabIndex="-1"
                 value=""
               />
               <div className="clear" />
