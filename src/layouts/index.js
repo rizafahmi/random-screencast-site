@@ -2,6 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 
+import logo from "./logo.png";
+import OGLogo from "./OG_Logo.png";
+import rss from "./rss.svg";
+import github from "./github.svg";
+import youtube from "./youtube.svg";
+import facebook from "./fb.svg";
+import twitter from "./twitter.svg";
+import linkedin from "./linkedin.svg";
+
 import "./application.css";
 import "./index.css";
 import "./prism-solarizedlight.css";
@@ -10,38 +19,38 @@ const Header = () => (
   <div className="grid">
     <header className="grid__col-12 panel--padded--centered">
       <a className="site-logo" href="/">
-        <img src="https://randomscreencast.com/static/logo.png" />
+        <img src={logo} alt="logo" style={{ width: 256 }} />
       </a>
       <nav className="navbar" role="navigation">
         <ul className="nav">
           <li className="nav__item">
             <a href="/rss.xml">
-              <img className="nav__image" src="/static/rss.svg" />
+              <img className="nav__image" src={rss} />
             </a>
           </li>
           <li className="nav__item">
             <a href="https://github.com/rizafahmi" target="_blank">
-              <img className="nav__image" src="/static/github.svg" />
+              <img className="nav__image" src={github} />
             </a>
           </li>
           <li className="nav__item">
             <a href="https://www.youtube.com/c/RizaFahmi" target="_blank">
-              <img className="nav__image" src="/static/youtube.svg" />
+              <img className="nav__image" src={youtube} />
             </a>
           </li>
           <li className="nav__item">
             <a href="https://facebook.com/rizafahmi" target="_blank">
-              <img className="nav__image" src="/static/fb.svg" />
+              <img className="nav__image" src={facebook} />
             </a>
           </li>
           <li className="nav__item">
             <a href="https://twitter.com/rizafahmi22" target="_blank">
-              <img className="nav__image" src="/static/twitter.svg" />
+              <img className="nav__image" src={twitter} />
             </a>
           </li>
           <li className="nav__item">
             <a href="https://www.linkedin.com/in/rizafahmi/" target="_blank">
-              <img className="nav__image" src="/static/linkedin.svg" />
+              <img className="nav__image" src={linkedin} />
             </a>
           </li>
         </ul>
@@ -170,12 +179,11 @@ const TemplateWrapper = ({ children }) => (
         },
         {
           property: "og:image",
-          content:
-            "http://randomscreencast.com.s3.amazonaws.com/static/logo.png"
+          content: { OGLogo }
         },
         {
           property: "og:image:secure_url",
-          content: "https://randomscreencast.com/static/OG_Logo.png"
+          content: { OGLogo }
         },
         {
           property: "og:image:width",
