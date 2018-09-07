@@ -37,7 +37,7 @@ const ShareButtons = props => (
       target="_blank"
       ariaLabel="Share on Twitter"
     >
-      <img src="/static/twitter.svg" style={{ width: 28 }} />
+      <img src={twitter} style={{ width: 28 }} />
     </a>
     <a
       className="shareLink"
@@ -53,7 +53,7 @@ const ShareButtons = props => (
       target="_blank"
       ariaLabel="Share on Linkedin"
     >
-      <img src="/static/linkedin.svg" style={{ width: 28 }} />
+      <img src={linkedin} style={{ width: 28 }} />
     </a>
   </div>
 );
